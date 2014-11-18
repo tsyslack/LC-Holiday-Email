@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Laughlin Constable - Responsive Hybrid Email</title>
+<style type="text/css">
+
+	/* Default Styles / Note: Check http://www.campaignmonitor.com/css/ for CSS Support */
+	img {border:none; display:block; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+	a img {border:none;} 
+
+	/* Override Apple Replacing Color of Phone Numbers, Addresses and Dates */
+	.email-body-text a {color:#000001;text-decoration:underline;}
+	.email-footer-text a {color:#333333;text-decoration:underline;}
+
+	/* Media Query for Mobile */
+	@media screen and (max-width: 599px) {
+	
+		/* This resizes tables and images to be 100% wide with a proportionate width */
+		*[class=email-wrap-to-100pc]{width:100% !important; height:auto !important;padding-left:0 !important; padding-right:0 !important;}
+
+		/* Column floats */
+		*[class=email-col-split]{width:100%!important; float:left!important;}
+
+		/* This resizes body text for mobile */
+		*[class=email-h1]{font-size:20px !important; line-height:24px !important; text-align:center !important;}
+		*[class=email-h2]{font-size:14px !important; line-height:16px !important;}
+		*[class=email-h3]{font-size:12px !important; line-height:14px !important;}
+		*[class=email-legal-text]{font-size:10px !important; line-height:14px !important;}
+		*[class=email-body-text]{font-size:12px !important; line-height:14px !important;}
+		
+		/* footer padding */
+		/**[class=email-footer]{padding-left:10px; !important; padding-right:10px !important;}*/
+		
+		/* Hide/Show on mobile */
+		/* Use inline styles on TD and Inner HTML to hide on desktop:
+		** display:none;float:right;width:0px;height:0px;visibility:none;overflow:hidden;
+		** Wrap in: <!--[if !mso]><!--> <!--<![endif]--> for Outlook support
+		**/
+		*[class=show-on-mobile]{display:inline !important;width:auto !important;max-height:inherit !important;overflow:visible !important;float:none !important;}
+		*[class=hide-on-mobile]{display:none !important;float:left;width:0px;height:0px;visibility:hidden;overflow:hidden;}
+
+		*[class=show-inner-html]{display:block !important;width:100% !important;height:auto !important;max-height:inherit !important;overflow:visible !important;float:none !important;}
+
+		/* Mobile buttons */
+		*[class=email-mob-button]{display:block !important;font-size:14px !important; font-weight:bold !important; padding:8px 4px 8px 4px !important; line-height:18px !important; background:#e6e6e6 !important; border-radius:5px !important; margin:10px auto;width:70%; text-align:center; color:#111 !important;}
+	}
+
+</style>
+</head>
+<body style="padding:0;margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;background-color:#BFD8E5;" bgcolor="#BFD8E5">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333" style="border-collapse:separate;">
+		<tr>
+			<td align="center" valign="top" bgcolor="#333333">
+				<table class="email-wrap-to-100pc" width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align="center" style="padding-bottom:10px;border-collapse:separate;">
+					<tr>
+						<td height="40" align="center" valign="top" bgcolor="#333333" style="/*  micro line fix*/display:block;">
+							<font class="email-legal-text" face="Helvetica, sans-serif" color="#FFFFFF" size="1" style="font-size:10px;">If you are having trouble viewing this email, please visit our online version <a href="#" target="_blank" style="color:#ffffff; text-decoration:underline;">here</a>.</font>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="top">
+							<a href="#" target="_blank">
+								<img src="http://placehold.it/600x300" alt="Aliquam imperdiet leo ac lectus rutrum" width="100%" border="0" style="display:block;" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td height="60" align="center" valign="middle" style="padding-top:10px;padding-left:10px;">
+							<font class="email-h1" face="Lora, Palatino, serif" color="#333333" size="5" style="font-size:22px;">Two Column Split Responsive Articles</font>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<!--Responsive Two Columns: Stacked Image Editorial -->                
+							<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								<tr>
+									<td class="email-col-split" width="280" align="left" valign="top">
+								        <!--Column #1-->
+								        <a href="#" target="_blank">
+									        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:10px;padding-left:10px;padding-right:10px;border-collapse:separate;">
+												<tr>
+													<td>
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Aliquam imperdiet leo ac lectus rutrum" width="280" height="140" border="0" style="display:block;" />
+													</td>
+												</tr>
+											</table>
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;border-collapse:separate;">
+											  	<tr>
+											    	<td style="padding-bottom:5px;">
+											    		<font class="email-h2" face="Helvetica, sans-serif" color="#333333" size="3" style="font-size:16px;">Maecenas Eget Odio Vel Augue</font>
+											    	</td>
+											    </tr>
+											  	<tr>
+											    	<td align="left" valign="top">
+														<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu diam venenatis, congue erat vulputate, aliquam lacus. Cras fringilla magna non nibh fringilla, vel sagittis mauris congue. Aenean urna purus, faucibus pulvinar tempus vel, molestie eu mi. Aenean scelerisque turpis eget tortor elementum, sit amet laoreet.</font>
+													</td>
+											    </tr>
+											</table>
+										</a>
+									</td>
+									<td class="email-col-split" width="280" align="center" valign="top">
+								        <!--Column #2-->
+								        <a href="#" target="_blank">
+									        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:10px;padding-left:10px;padding-right:10px;border-collapse:separate;">
+												<tr>
+													<td>
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Aliquam imperdiet leo ac lectus rutrum" width="280" height="140" border="0" style="display:block;" />
+													</td>
+												</tr>
+											</table>
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:10px;border-collapse:separate;">
+											  	<tr>
+											    	<td align="left" style="padding-bottom:5px;">
+											    		<font class="email-h2" face="Helvetica, sans-serif" color="#333333" size="3" style="font-size:16px;">Maecenas Eget Odio Vel Augue</font>
+											    	</td>
+											    </tr>
+											  	<tr>
+											    	<td align="left" valign="top">
+														<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu diam venenatis, congue erat vulputate, aliquam lacus. Cras fringilla magna non nibh fringilla, vel sagittis mauris congue. Aenean urna purus, faucibus pulvinar tempus vel, molestie eu mi. Aenean scelerisque turpis eget tortor elementum, sit amet laoreet.</font>
+													</td>
+											    </tr>
+											</table>
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<table width="100%" border="0" cellspacing="0" cellpadding="20" bgcolor="#FFFFFF" style="border-collapse:separate;">
+								<tr>
+									<td align="center">
+										<a href="#" class="email-mob-button" target="_blank" style="color:#333333;text-decoration:underline;">
+											<font face="Helvetica, sans-serif" color="#333333" size="2" style="font-size:13px;"><strong>Vel Sagittis Mauris Congue</strong></font>
+										</a>
+									</td>
+								</tr>
+							</table>
+                        </td>
+                    </tr>
+                    <tr>
+						<td valign="top">
+							<!--Responsive Two Columns: Floated Left Image Editorial -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="border-collapse:separate;">
+								<tr>
+									<td height="60" align="center" valign="middle" style="padding-top:10px;padding-left:10px;">
+										<font face="Helvetica, sans-serif" class="email-h1" color="#333333" size="5" style="font-size:22px;">Two Column Full Responsive Articles</font>
+									</td>
+								</tr>
+							</table>
+							<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="padding-top:10px;padding-bottom:20px;border-collapse:separate;">
+								<tr>
+									<td class="email-col-split" width="187" align="center" valign="top">
+								        <!--Column #1-->
+								        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								  			<tr>
+								    			<td style="padding-left:10px;padding-right:10px;padding-bottom:10px;">
+								    				<a href="#" target="_blank">
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Maecenas Eget Odio Vel Augue" width="200" height="100" border="0" style="display:block;" />
+													</a>
+								    			</td>
+								  			</tr>
+										</table>
+									</td>
+									<td class="email-col-split" width="373" align="center" valign="top">
+										<!--Column #2--> 		
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+										  	<tr>
+										    	<td align="left" style="padding-left:10px;padding-right:10px;padding-bottom:5px;">
+										    		<a href="#" target="_blank" style="color:#333333;text-decoration:underline;">
+														<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;"><strong>Maecenas Eget Odio Vel Augue</strong></font>
+													</a>
+												</td>
+										    </tr>
+										  	<tr>
+										    	<td valign="top" style="padding-top:0px;padding-left:10px;padding-right:10px;">
+										    		<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Aenean urna purus, faucibus pulvinar tempus vel, molestie eu mi. Aenean scelerisque turpis eget tortor elementum, sit amet laoreet mi dapibus. Suspendisse fermentum dui metus, vel vulputate quam porttitor quis. Maecenas eget odio vel augue..</font>
+										    	</td>
+										    </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!--Responsive Two Columns: Floated Left Image Editorial -->  
+							<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="padding-top:10px;padding-bottom:20px;border-collapse:separate;">
+								<tr>
+									<td class="email-col-split" width="187" align="center" valign="top">
+								        <!--Column #1-->
+								        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								  			<tr>
+								    			<td style="padding-left:10px;padding-right:10px;padding-bottom:10px;">
+								    				<a href="#" target="_blank">
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Maecenas Eget Odio Vel Augue" width="200" height="100" border="0" style="display:block;" />
+													</a>
+								    			</td>
+								  			</tr>
+										</table>
+									</td>
+									<td class="email-col-split" width="373" align="center" valign="top">
+										<!--Column #2-->    		
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+										  	<tr>
+										    	<td style="padding-left:10px;padding-right:10px;padding-bottom:5px;">
+										    		<a href="#" target="_blank" style="color:#333333;text-decoration:underline;">
+														<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;"><strong>Maecenas Eget Odio Vel Augue</strong></font>
+													</a>
+												</td>
+										    </tr>
+										  	<tr>
+										    	<td valign="top" style="padding-top:0px;padding-left:10px;padding-right:10px;">
+										    		<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Aenean urna purus, faucibus pulvinar tempus vel, molestie eu mi. Aenean scelerisque turpis eget tortor elementum, sit amet laoreet mi dapibus. Suspendisse fermentum dui metus, vel vulputate quam porttitor quis. Maecenas eget odio vel augue..</font>
+										    	</td>
+										    </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="padding-top:10px;padding-bottom:20px;border-collapse:separate;">
+								<tr>
+									<td width="187" class="email-col-split" align="center" valign="top">
+								        <!--Column #1-->
+								        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								  			<tr>
+								    			<td style="padding-left:10px;padding-right:10px;padding-bottom:10px;">
+								    				<a href="#" target="_blank">
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Maecenas Eget Odio Vel Augue" width="200" height="100" border="0" style="display:block;" />
+													</a>
+								    			</td>
+								  			</tr>
+										</table>
+									</td>
+									<td width="373" class="email-col-split" align="center" valign="top">  
+										<!--Column #2-->  		
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+										  	<tr>
+										    	<td style="padding-left:10px;padding-right:10px;padding-bottom:5px;">
+										    		<a href="#" target="_blank" style="color:#333333;text-decoration:underline;">
+														<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;"><strong>Maecenas Eget Odio Vel Augue</strong></font>
+													</a>
+												</td>
+										    </tr>
+										  	<tr>
+										    	<td valign="top" style="padding-top:0px;padding-left:10px;padding-right:10px;">
+										    		<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Aenean urna purus, faucibus pulvinar tempus vel, molestie eu mi. Aenean scelerisque turpis eget tortor elementum, sit amet laoreet mi dapibus. Suspendisse fermentum dui metus, vel vulputate quam porttitor quis. Maecenas eget odio vel augue..</font>
+										    	</td>
+										    </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!--Responsive Full Column: Stacked Image Editorial -->  
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border-collapse:separate;">
+								<tr>
+									<td height="60" align="center" valign="middle" style="padding-top:10px;padding-left:10px;">
+										<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;">One Column Full Responsive Articles</font>
+									</td>
+								</tr>
+								<tr>
+									<td valign="top">
+										<!--Column #1-->
+										<table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF" style="border-collapse:separate;">
+											<tr>
+												<td>
+													<a href="#" target="_blank">
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Maecenas Eget Odio Vel Augue" width="580" height="290" border="0" style="display:block;" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td align="left" valign="top">
+													<a href="#" target="_blank" style="color:#333333;text-decoration:underline;">
+														<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;"><strong>Maecenas Eget Odio Vel Augue</strong></font>
+													</a>
+													<font size="1" style="font-size:10px;"><br /><br /></font>
+													<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Lorem ipsum dolor sit amet quo nulla sapien molestie ligula cras luctus nulla, malesuada nullam.</font>
+												</td>
+											</tr>
+										</table>
+										<!--Column #2-->
+										<table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF" style="border-collapse:separate;">
+											<tr>
+												<td>
+													<a href="#" target="_blank">
+														<img class="email-wrap-to-100pc" src="http://placehold.it/580x290" alt="Maecenas Eget Odio Vel Augue" width="580" height="290" border="0" style="display:block;" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td align="left" valign="top">
+													<a href="#" target="_blank" style="color:#333333;text-decoration:underline;">
+														<font class="email-h1" face="Helvetica, sans-serif" color="#333333" size="5" style="font-size:22px;"><strong>Maecenas Eget Odio Vel Augue</strong></font>
+													</a>
+													<font size="1" style="font-size:10px;"><br /><br /></font>
+													<font class="email-body-text" face="Helvetica, sans-serif" color="#000000" size="2" style="font-size:13px;vertical-align:top;">Lorem ipsum dolor sit amet quo nulla sapien molestie ligula cras luctus nulla, malesuada nullam.</font>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" valign="top" bgcolor="#666666" style="padding:10px;">
+                        	<table class="email-wrap-to-100pc" width="580" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								<tr>
+									<td height="60" align="center" valign="middle" style="padding-top:10px;">
+										<font class="email-h1" face="Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:22px;">Replacement Hide&#47;Show Content</font>
+									</td>
+								</tr>
+                            </table>
+							<table class="email-wrap-to-100pc" width="580" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+								<tr>
+									<td class="hide-on-mobile" align="left" valign="top">
+										<img align="left" src="http://placehold.it/580x290" alt="" width="580" height="290" border="0" style="display:block;" />
+									</td>
+
+									<!--[if !mso]><!-->
+									<td class="show-on-mobile" align="left" style="display:none;float:left;width:0px;height:0px;visibility:none;overflow:hidden;">
+										<img class="show-inner-html" align="left" src="http://placehold.it/1160x580" alt="" width="300" height="200" border="0" style="display:none;float:left;width:0px;height:0px;visibility:none;overflow:hidden;" />
+									</td>
+									<!--<![endif]-->
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<!--Responsive Footer -->  
+				<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6e6e6" style="padding-top:20px;border-collapse:separate;">
+					<tr>
+						<td>
+							<table class="email-wrap-to-100pc" width="300" border="0" cellspacing="0" cellpadding="10" align="left" style="padding-bottom:20px;padding-left:10px;padding-right:10px;float:left;border-collapse:separate;">
+								<tr>
+									<td height="140" align="left" valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;">
+											<tr>
+												<td>
+													<a href="#" target="_blank">
+														<img src="http://placehold.it/120x120&text=Callout" alt="Callout" width="120" height="120" border="0" style="display:block;" />
+													</a>
+												</td>
+												<td valign="top" style="padding-left:10px;">
+													<font class="email-legal-text" face="Helvetica, sans-serif" color="#333333" size="1" style="font-size:10px;vertical-align:top;">Lorem ipsum dolor sit amet <a href="#" target="_blank" style="color:#333333;text-decoration:underline;">Lorem ipsum dolor sit amet quo nulla sapien molestie ligula cras luctus nulla, malesuada nullam.</a></font>
+												</td>	
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="email-wrap-to-100pc" border="0" cellspacing="0" cellpadding="10" style="padding-bottom:20px;padding-left:10px;padding-right:10px;float:right;border-collapse:separate;">
+								<tr>
+									<td height="140" align="center" valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" align="right" style="border-collapse:separate;">
+											<tr>
+												<td align="center">
+													<a href="#" target="_blank">
+														<img src="http://placehold.it/180x80&text=Company+Logo" alt="Logo" width="180" height="80" border="0" style="display:block;" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<table border="0" cellspacing="0" cellpadding="2" style="border-collapse:separate;">
+														<tr>
+															<td>
+																<a href="#" target="_blank">
+																	<img src="http://placehold.it/46x32&text=F" alt="Social Icon" width="32" height="32" border="0" style="display:block;" />
+																</a>
+															</td>
+															<td>
+																<a href="#" target="_blank">
+																	<img src="http://placehold.it/32x32&text=T" alt="Social Icon" width="32" height="32" border="0" style="display:block;" />
+																</a>
+															</td>
+															<td>
+																<a href="#" target="_blank">
+																	<img src="http://placehold.it/32x32&text=Y" alt="Social Icon" width="32" height="32" border="0" style="display:block;" />
+																</a>
+															</td>
+															<td>
+																<a href="#" target="_blank">
+																	<img src="http://placehold.it/32x32&text=P" alt="Social Icon" width="32" height="32" border="0" style="display:block;" />
+																</a>
+															</td>
+															<td>
+																<a href="#" target="_blank">
+																	<img src="http://placehold.it/32x32&text=B" alt="Social Icon" width="32" height="32" border="0" style="display:block;" />
+																</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="email-wrap-to-100pc" width="600" border="0" cellspacing="0" cellpadding="10" style="padding-right:10px; padding-bottom:20px; padding-left:10px;border-collapse:separate;">
+								<tr>
+									<td valign="top">
+										<font class="email-legal-text email-footer-text" face="Helvetica, sans-serif" color="#333333" size="1" style="font-size:10px;vertical-align:top;">
+											<strong>You control your subscription.</strong><br />
+											If you would like to unsubscribe from our mailings, just go to <a href="#" target="_blank" style="color:#333333;text-decoration:underline;">this page</a> and enter your email address where you see the &#8220;Unsubscribe&#8221; option.
+											<br /><br />
+											If you received this email from a friend and would like to join our email list, you can create a new account <a href="#" target="_blank" style="color:#333333;text-decoration:underline;">here</a>.
+											<br /><br />
+											Company &#124; XXXX Street Address, City, State XXXXX &#124; <a href="tel:xxxxxxxxxx" style="color:#333333;text-decoration:underline;">1&#45;XXX&#45;XXX&#45;XXXX</a>
+										</font>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
